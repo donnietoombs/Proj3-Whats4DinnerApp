@@ -1,12 +1,8 @@
 {
-  "name": "proj3-whats4dinnerapp",
+  "name": "theCupboard",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "engines": {
-    "node": "8.11.4",
-    "npm" : "5.6.0"
-  }
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -15,6 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/donnietoombs/Proj3-Whats4DinnerApp.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -22,18 +19,16 @@
   },
   "homepage": "https://github.com/donnietoombs/Proj3-Whats4DinnerApp#readme",
   "dependencies": {
-    "bcrypt-nodejs": "0.0.3",
-    "body-parser": "^1.18.3",
-    "cookie-session": "^2.0.0-beta.3",
-    "dotenv": "^6.2.0",
     "express": "^4.16.4",
-    "express-handlebars": "^3.0.0",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express-handlebars": "^3.0.2",
     "express-session": "^1.15.6",
-    "mysql": "^2.16.0",
-    "mysql2": "^1.6.4",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.4.19",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
-    "request": "^2.88.0",
-    "sequelize": "^4.42.0"
+    "passport-local-mongoose": "^5.0.1",
+    "request": "^2.88.0"
   }
 }
